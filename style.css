@@ -76,7 +76,6 @@ button {
   background-color: #3882f6;
   border-radius: 10px;
   border-width: 0;
-  flex: none;
   padding: 10px 40px;
   align-self: flex-start;
   color: #f9faf8;
@@ -110,9 +109,9 @@ a {
 }
 
 .items-title {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .items {
@@ -126,45 +125,75 @@ a {
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
 }
 
 .item img {
-    width: 170px;
-    height: 170px;
-    border: 5px solid #3882f6;
-    border-radius: 15px;
-    background-color: inherit;
+  width: 170px;
+  height: 170px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  background-color: inherit;
 }
 
 .quote-container {
-    width: 100vw;
-    height: 500px;
-    display: flex;
-    background-color: #e5e7eb;
-    align-items:center;
-    justify-content: center;
+  width: 100vw;
+  height: 450px;
+  display: flex;
+  background-color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
 }
-.sub-container{
-    width: 925px;
-    display: flex;
-    flex-direction: column;
+.sub-container {
+  width: 925px;
+  display: flex;
+  flex-direction: column;
 }
 .quote-container p {
-    margin: 0;
-    align-self: flex-end;
-    font-size: 25px;
-    font-weight: bold;
+  margin: 0;
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: bold;
 }
 #quote {
+  margin: 0;
+  font-size: 36px;
+  font-style: italic;
+  color: #434b57;
+  font-weight: 100;
+}
+
+.subscription {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscription .elements {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.subscription .elements button {
+    align-self: inherit;
+    border: 2px solid white;
+    padding: 7px 30px;
+    border-radius: 7px;
+}
+
+.subscription p {
     margin: 0;
-    font-size: 36px;
-    font-style: italic;
-    color: #434b57;
-    font-weight: 100;
+    padding: 0;
 }
 
 .footer {
