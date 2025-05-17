@@ -54,14 +54,16 @@ body {
 }
 
 .header li,
-.header p {
+.header p,
+.elements p {
   margin: 0;
   list-style-type: none;
   font-size: 18px;
   color: #e5e7eb;
 }
 
-#Logo {
+#Logo,
+#text1  {
   color: #f9faf8;
   font-size: 24px;
   font-weight: bold;
@@ -180,8 +182,8 @@ a {
     width: 1050px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 40px;
+    justify-content: space-around;
+    padding: 50px 35px;
 }
 
 .subscription .elements button {
@@ -194,6 +196,10 @@ a {
 .subscription p {
     margin: 0;
     padding: 0;
+}
+
+.subscription-text p{
+    padding: 1px;
 }
 
 .footer {
