@@ -140,5 +140,32 @@ a {
     background-color: inherit;
 }
 
+.quote-container {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    background-color: #e5e7eb;
+    align-items:center;
+    justify-content: center;
+}
+.sub-container{
+    width: 925px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-container p {
+    margin: 0;
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
+#quote {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #434b57;
+    font-weight: 100;
+}
+
 .footer {
 }
