@@ -156,11 +156,11 @@ a {
 }
 
 .quote-container {
+  padding: 20px 40px;
   width: 100vw;
-  height: 450px;
   display: flex;
   background-color: #e5e7eb;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-around;
 }
 
@@ -169,7 +169,8 @@ a {
   display: flex;
   flex-direction: column;
   color: #1f2937;
-  text-align: center;
+  text-align: justify;
+  width: 500px;
 }
 
 .quote-item img {
@@ -177,6 +178,7 @@ a {
   height: 357.33px;
   border: 3px solid #1f2937;
 }
+
 
 .subscription {
   width: 100vw;
