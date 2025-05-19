@@ -9,28 +9,41 @@
   <body>
     <div class="header">
       <div class="top-header">
-        <p id="Logo">Header Logo</p>
-        <ul class="links">
-          <li><a href="#">header link-one</a></li>
-          <li><a href="#">header link-two</a></li>
-          <li><a href="#">header link-three</a></li>
+        <p id="Logo">Conoce a Yepe</p>
+        <img
+          id="Logo-img"
+          src="images/Logo.jpg"
+          height="50px"
+          alt="Logo"
+        />
+        <ul>
+          <li>Resultados de Yepe en : </li>
+          <li><a href="#">Costa Rica</a></li>
+          <li><a href="#">Mendeleiev</a></li>
         </ul>
       </div>
       <div class="hero">
         <div class="hero-text">
-          <p id="main-text">This website is awesome</p>
+          <p id="main-text">Conoce a Juan Carlos Yepe</p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            excepturi fugit neque minus nisi! A necessitatibus consequunt
+            Multimedallista olimpico, amigo de sus amigos, buen maestro y mejor
+            persona.
           </p>
-          <button>Sign Up</button>
+          <button
+            onclick="
+            navigator.clipboard.writeText('https://kiritmak.github.io/Landing-Page/')
+          alert('Enlace a esta pagina copiado!')
+          "
+          >
+            Comparte
+          </button>
         </div>
         <img
           class="hero-image"
           alt="Placeholder"
-          src="./../../Downloads/images/01.png"
-          width="500px"
-          height="250px"
+          src="./images/Portrait.jpg"
+          width="400px"
+          height="auto"
         />
       </div>
     </div>
@@ -158,8 +171,8 @@
       </div>
     </div>
     <div class="footer">
-        <p>Copyright &copy; Kiritmak </p>
-        <ul></ul>
+      <p>Copyright &copy; Kiritmak</p>
+      <ul></ul>
     </div>
   </body>
 </html>

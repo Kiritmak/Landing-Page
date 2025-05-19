@@ -26,9 +26,14 @@ body {
 
 .top-header {
   display: flex;
-  justify-content: space-between;
   width: 1025px;
   align-items: center;
+  gap: 20px;
+}
+
+.top-header img {
+  margin-right: auto;
+  border-radius: 100px;
 }
 
 .hero {
